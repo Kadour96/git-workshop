@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styledocplanner.css">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <title>Docplanner Group</title>
+    <script type="text/javascript">
+      function handleSelect(elm)
+      {if (elm.value !='Choosecountry'){
+        window.location = elm.value;
+
+      }
+      }
+      </script>
+</head>
+<body>
+  <header>
+  <nav>
+        <img src="images/logo-default-group-en.svg" alt="Logo-nav" width="280px" >
+      <div id="nav-menu">
+       <span class="green-doc">About us</span> 
+        &nbsp;
+        <span class="green">Career</span>
+        &nbsp;
+       <span class="green">Departments</span>   
+      </div>  
+  </nav>  
+</header>
+  <section>
+     <img src="images/logo.png" alt="logo" width="50px" height="50px" class="center">
+    <div class="titre" >
+        <h1>Making the healthcare experience more human</h1>
+    </div>
+    
+      <table class="unevaleur">
+      <tr>
+        <td> We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.
+        </td>
+        <td> We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</td>
+     </tr>
+     </table>
+  </section>
+  <section2>
+    <div id="box1" class="fontbox">
+      <img src="images/patients.png" alt="forpatients">
+      <br>
+      <br>
+      <span>For Patients</span> 
+      <br/>
+      <br/>
+      Find a doctor, book a visit and solve any health-related doubt
+      <br/>
+      <br/>
+      <br/>
+      <div >
+        <select class="background" name="forma" onchange="javascript:handleSelect(this)">
+                           <option value="Choosecountry">Choose country</option>
+                            <option value="https://academy.doctoraliar.com">Argentina</option>
+                            <option value="http://www.doctoralia.com.br">Brazil</option>
+                            <option value="http://www.doctoralia.cl">Chile</option>
+                            <option value="http://www.doctoralia.co">Colombia</option>
+                            <option value="http://www.znamylekar.cz">Czech</option>
+                            <option value="http://www.jameda.de">Germany</option>
+                            <option value="http://www.miodottore.it">Italy</option>
+                            <option value="http://www.doctoralia.com.mx">Mexico</option>
+                            <option value="http://www.doctoralia.pe">Peru</option>
+                            <option value="http://www.znanylekarz.pl">Poland</option>
+                            <option value="http://www.doctoralia.com.pt">Portugal</option>
+                            <option value="http://www.doctoralia.es">Spain</option>
+                            <option value="http://www.doktortakvimi.com">Turkey</option>
+                        </select>
+      </div>
+    </div>
+    <div id="box2" class="fontbox">
+      <img src="images/doctors.png" alt="fordoctors">
+      <br>
+      <br>
+      <span>For Doctors</span> 
+      <br/>
+      <br/>
+      Save time managing visits and cut no-shows by half
+      <br/>
+    <div >
+      <select name="forma" onchange="javascript:handleSelect(this)">
+                         <option value="Choosecountry">Choose country</option>
+                          <option value="https://academy.doctoraliar.com">Argentina</option>
+                          <option value="http://www.doctoralia.com.br">Brazil</option>
+                          <option value="http://www.doctoralia.cl">Chile</option>
+                          <option value="http://www.doctoralia.co">Colombia</option>
+                          <option value="http://www.znamylekar.cz">Czech</option>
+                          <option value="http://www.jameda.de">Germany</option>
+                          <option value="http://www.miodottore.it">Italy</option>
+                          <option value="http://www.doctoralia.com.mx">Mexico</option>
+                          <option value="http://www.doctoralia.pe">Peru</option>
+                          <option value="http://www.znanylekarz.pl">Poland</option>
+                          <option value="http://www.doctoralia.com.pt">Portugal</option>
+                          <option value="http://www.doctoralia.es">Spain</option>
+                          <option value="http://www.doktortakvimi.com">Turkey</option>
+                      </select>
+    </div>
+    </div>
+    <div id="box3" class="fontbox">
+      <img src="images/clinics.png" alt="forclinics">
+      <br>
+      <br>
+      <span>For clinics</span> 
+      <br/>
+      <br/>
+      Deliver an exceptional patient experience in your clinic
+    </div>
+  </section2>
+  
+</body>
+</html>
